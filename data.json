@@ -1,37 +1,37 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "16:59",
+  "heure": "17:05",
   "date": "09/03/2026",
   "participation": {
     "inscrits": 13000,
     "votants": 6150,
     "abstentions": 6850,
-    "blancs_nuls": 166,
-    "exprimes": 5984,
+    "blancs_nuls": 434,
+    "exprimes": 5716,
     "participation_pct": 47.31,
     "abstention_pct": 52.69
   },
   "candidats": [
     {
       "nom": "CAY",
-      "voix": 521,
-      "pct_exprimes": 8.71
+      "voix": 1429,
+      "pct_exprimes": 25.0
     },
     {
       "nom": "LEC",
-      "voix": 521,
-      "pct_exprimes": 8.71
+      "voix": 1429,
+      "pct_exprimes": 25.0
     },
     {
       "nom": "LEM",
-      "voix": 521,
-      "pct_exprimes": 8.71
+      "voix": 1429,
+      "pct_exprimes": 25.0
     },
     {
       "nom": "TIS",
-      "voix": 521,
-      "pct_exprimes": 8.71
+      "voix": 1429,
+      "pct_exprimes": 25.0
     }
   ],
   "quartiers": [
@@ -50,12 +50,12 @@
       "nom": "Village",
       "inscrits": 5691,
       "votants": 3750,
-      "blancs_nuls": 140,
+      "blancs_nuls": 266,
       "participation_pct": 65.89,
-      "voix_cay": 440,
-      "voix_lec": 440,
-      "voix_lem": 440,
-      "voix_tis": 440
+      "voix_cay": 871,
+      "voix_lec": 871,
+      "voix_lem": 871,
+      "voix_tis": 871
     },
     {
       "nom": "Ecarts",
@@ -70,25 +70,25 @@
     },
     {
       "nom": "Issambres",
-      "inscrits": 3252,
+      "inscrits": 3244,
       "votants": 700,
-      "blancs_nuls": 26,
-      "participation_pct": 21.53,
-      "voix_cay": 81,
-      "voix_lec": 81,
-      "voix_lem": 81,
-      "voix_tis": 81
+      "blancs_nuls": 52,
+      "participation_pct": 21.58,
+      "voix_cay": 162,
+      "voix_lec": 162,
+      "voix_lem": 162,
+      "voix_tis": 162
     },
     {
       "nom": "TOTAL",
       "inscrits": 13000,
       "votants": 6150,
-      "blancs_nuls": 166,
+      "blancs_nuls": 434,
       "participation_pct": 47.31,
-      "voix_cay": 521,
-      "voix_lec": 521,
-      "voix_lem": 521,
-      "voix_tis": 521
+      "voix_cay": 1033,
+      "voix_lec": 1033,
+      "voix_lem": 1033,
+      "voix_tis": 1033
     }
   ]
 }
