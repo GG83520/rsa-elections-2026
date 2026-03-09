@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🗳 Élections RSA 2026 — Résultats en direct</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bleu:    #1F3864;
+      --bleu2:   #2E75B6;
+      --or:      #C9A84C;
+      --rouge:   #C00000;
+      --cay:     #FF6600;
+      --lec:     #00B0F0;
+      --lem:     #375623;
+      --tis:     #7030A0;
+      --bg:      #0d1b2e;
+      --card:    #162540;
+      --card2:   #1c2f50;
+      --texte:   #e8edf5;
+      --subtil:  #8a9bb5;
+      --border:  rgba(255,255,255,0.07);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--texte);
+      font-family: 'DM Sans', sans-serif;
+      min-height: 100vh;
+      padding-bottom: 3rem;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      background: linear-gradient(135deg, #0d1b2e 0%, #1a2f52 50%, #0d1b2e 100%);
+      border-bottom: 2px solid var(--or);
+      padding: 1.5rem 1.2rem 1.2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::before {
+      content: '';
+      position: absolute;
+      top: -50%; left: -20%;
+      width: 140%; height: 200%;
+      background: radial-gradient(ellipse at 60% 40%, rgba(201,168,76,0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .header-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: rgba(201,168,76,0.15);
+      border: 1px solid rgba(201,168,76,0.4);
+      border-radius: 20px;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.7rem;
+      font-family: 'Syne', sans-serif;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      color: var(--or);
+      text-transform: uppercase;
+      margin-bottom: 0.8rem;
+    }
+    .pulse {
+      width: 7px; height: 7px;
+      background: #4ade80;
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.5; transform: scale(1.3); }
+    }
+    .header h1 {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 1.35rem;
+      line-height: 1.2;
+      color: #fff;
+      margin-bottom: 0.3rem;
+    }
+    .header h1 span { color: var(--or); }
+    .header-sub {
+      font-size: 0.78rem;
+      color: var(--subtil);
+      font-weight: 300;
+    }
+
+    /* ── STATUS BAR ── */
+    .status-bar {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 0.9rem 1.2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .status-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.15rem;
+    }
+    .status-val {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #fff;
+    }
+    .status-val.highlight { color: var(--or); }
+    .status-lbl {
+      font-size: 0.65rem;
+      color: var(--subtil);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .status-sep {
+      width: 1px;
+      height: 2rem;
+      background: var(--border);
+    }
+
+    /* Progress bar BV */
+    .bv-progress {
+      background: var(--card);
+      padding: 0.7rem 1.2rem 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .bv-progress-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.72rem;
+      color: var(--subtil);
+      margin-bottom: 0.4rem;
+    }
+    .bv-progress-label strong { color: var(--texte); }
+    .progress-track {
+      height: 6px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--bleu2), var(--or));
+      border-radius: 3px;
+      transition: width 0.8s ease;
+    }
+
+    /* ── SECTIONS ── */
+    .section {
+      margin: 1rem 1rem 0;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    .section-title {
+      background: linear-gradient(135deg, var(--bleu) 0%, var(--bleu2) 100%);
+      padding: 0.65rem 1rem;
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .section-title .icon {
+      font-size: 1rem;
+    }
+
+    /* ── SECTION ① PARTICIPATION ── */
+    .participation-grid {
+      background: var(--card);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: var(--border);
+    }
+    .part-cell {
+      background: var(--card);
+      padding: 0.85rem 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+    .part-cell.full { grid-column: 1 / -1; }
+    .part-lbl {
+      font-size: 0.68rem;
+      color: var(--subtil);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .part-val {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 1.3rem;
+      color: #fff;
+    }
+    .part-val.big { font-size: 1.6rem; color: var(--or); }
+    .part-sub {
+      font-size: 0.7rem;
+      color: var(--subtil);
+    }
+
+    /* ── SECTION ② CANDIDATS ── */
+    .cands-list {
+      background: var(--card);
+    }
+    .cand-row {
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+    .cand-row:last-child { border-bottom: none; }
+    .cand-color {
+      width: 4px;
+      height: 2.5rem;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+    .cand-info { flex: 1; }
+    .cand-name {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin-bottom: 0.3rem;
+    }
+    .cand-bar-track {
+      height: 5px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .cand-bar-fill {
+      height: 100%;
+      border-radius: 3px;
+      transition: width 0.8s ease;
+    }
+    .cand-right {
+      text-align: right;
+      flex-shrink: 0;
+    }
+    .cand-pct {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 1.25rem;
+    }
+    .cand-voix {
+      font-size: 0.68rem;
+      color: var(--subtil);
+      margin-top: 0.1rem;
+    }
+
+    /* ── SECTION ③ QUARTIERS ── */
+    .quartier-table {
+      background: var(--card);
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .quartier-table th {
+      background: var(--card2);
+      padding: 0.5rem 0.6rem;
+      font-size: 0.62rem;
+      font-family: 'Syne', sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--subtil);
+      text-align: right;
+    }
+    .quartier-table th:first-child { text-align: left; }
+    .quartier-table td {
+      padding: 0.6rem 0.6rem;
+      font-size: 0.78rem;
+      border-bottom: 1px solid var(--border);
+      text-align: right;
+      color: var(--texte);
+    }
+    .quartier-table td:first-child {
+      text-align: left;
+      font-weight: 500;
+      color: #fff;
+    }
+    .quartier-table tr:last-child td {
+      border-bottom: none;
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      color: var(--or);
+      background: var(--card2);
+    }
+    .quartier-table tr:nth-child(even) td {
+      background: rgba(255,255,255,0.02);
+    }
+
+    /* Sous-tableau candidats par quartier */
+    .q-cands {
+      background: var(--card);
+      padding: 0 0 0.5rem;
+    }
+    .q-cands-title {
+      padding: 0.5rem 1rem 0.3rem;
+      font-size: 0.65rem;
+      color: var(--subtil);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-family: 'Syne', sans-serif;
+      font-weight: 600;
+    }
+    .q-cands-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .q-cands-table th {
+      padding: 0.35rem 0.6rem;
+      font-size: 0.62rem;
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      text-align: right;
+      color: #fff;
+    }
+    .q-cands-table th:first-child { text-align: left; color: var(--subtil); font-weight: 400; }
+    .q-cands-table td {
+      padding: 0.45rem 0.6rem;
+      font-size: 0.75rem;
+      text-align: right;
+      border-bottom: 1px solid var(--border);
+    }
+    .q-cands-table td:first-child {
+      text-align: left;
+      color: var(--subtil);
+      font-size: 0.7rem;
+    }
+    .q-cands-table tr:last-child td {
+      font-weight: 600;
+      color: var(--or);
+      background: rgba(201,168,76,0.06);
+      border-bottom: none;
+    }
+
+    /* ── FOOTER ── */
+    .footer {
+      margin: 1.5rem 1rem 0;
+      text-align: center;
+      font-size: 0.65rem;
+      color: var(--subtil);
+      line-height: 1.8;
+    }
+    .footer strong { color: var(--texte); }
+
+    /* ── NO DATA ── */
+    .no-data {
+      background: var(--card);
+      padding: 2rem 1rem;
+      text-align: center;
+      color: var(--subtil);
+      font-size: 0.82rem;
+    }
+    .no-data .emoji { font-size: 2rem; display: block; margin-bottom: 0.5rem; }
+
+    /* Animation entrée */
+    .section {
+      animation: fadeUp 0.5s ease both;
+    }
+    .section:nth-child(2) { animation-delay: 0.1s; }
+    .section:nth-child(3) { animation-delay: 0.2s; }
+    .section:nth-child(4) { animation-delay: 0.3s; }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-badge">
+    <span class="pulse"></span>
+    Résultats en direct
+  </div>
+  <h1>Élections <span>RSA 2026</span></h1>
+  <div class="header-sub">Tour 1 — 15 Mars 2026 &nbsp;·&nbsp; Commune RSA</div>
+</div>
+
+<!-- STATUS BAR -->
+<div class="status-bar" id="statusBar">
+  <div class="status-item">
+    <span class="status-val highlight" id="statBvSaisis">—</span>
+    <span class="status-lbl">BV saisis</span>
+  </div>
+  <div class="status-sep"></div>
+  <div class="status-item">
+    <span class="status-val" id="statBvTotal">—</span>
+    <span class="status-lbl">Total BV</span>
+  </div>
+  <div class="status-sep"></div>
+  <div class="status-item">
+    <span class="status-val" id="statHeure">—</span>
+    <span class="status-lbl">Mise à jour</span>
+  </div>
+</div>
+
+<!-- PROGRESS BV -->
+<div class="bv-progress">
+  <div class="bv-progress-label">
+    <span>Dépouillement</span>
+    <strong id="statPct">0%</strong>
+  </div>
+  <div class="progress-track">
+    <div class="progress-fill" id="progressFill" style="width:0%"></div>
+  </div>
+</div>
+
+<!-- ① PARTICIPATION -->
+<div class="section" id="sec1">
+  <div class="section-title"><span class="icon">①</span> Participation commune</div>
+  <div id="participationContent" class="no-data">
+    <span class="emoji">⏳</span>
+    En attente des premiers résultats…
+  </div>
+</div>
+
+<!-- ② RÉSULTATS CANDIDATS -->
+<div class="section" id="sec2">
+  <div class="section-title"><span class="icon">②</span> Résultats par candidat</div>
+  <div id="candidatsContent" class="no-data">
+    <span class="emoji">⏳</span>
+    En attente des premiers résultats…
+  </div>
+</div>
+
+<!-- ③ ANALYSE PAR QUARTIER -->
+<div class="section" id="sec3">
+  <div class="section-title"><span class="icon">③</span> Analyse par quartier</div>
+  <div id="quartiersContent" class="no-data">
+    <span class="emoji">⏳</span>
+    En attente des premiers résultats…
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <strong>Commune RSA</strong> · Élections Municipales 2026<br>
+  Page générée automatiquement · Données issues du dépouillement officiel
+</div>
+
+<script>
+// ── Chargement des données JSON générées par le script Python ──
+async function loadData() {
+  try {
+    const r = await fetch('data.json?t=' + Date.now());
+    if (!r.ok) return;
+    const d = await r.json();
+    renderAll(d);
+  } catch(e) {
+    console.log('Données non disponibles');
+  }
+}
+
+function fmt(n) {
+  if (n === null || n === undefined || n === '') return '—';
+  return Number(n).toLocaleString('fr-FR');
+}
+function pct(n) {
+  if (n === null || n === undefined || n === '') return '—';
+  return Number(n).toFixed(1) + '%';
+}
+
+function renderAll(d) {
+  // Status bar
+  document.getElementById('statBvSaisis').textContent = d.bv_saisis;
+  document.getElementById('statBvTotal').textContent   = d.bv_total;
+  document.getElementById('statHeure').textContent     = d.heure;
+  const p = Math.round(d.bv_saisis / d.bv_total * 100);
+  document.getElementById('statPct').textContent       = p + '%';
+  document.getElementById('progressFill').style.width  = p + '%';
+
+  // ① Participation
+  const part = d.participation;
+  if (part && part.votants > 0) {
+    document.getElementById('participationContent').innerHTML = `
+      <div class="participation-grid">
+        <div class="part-cell full">
+          <div class="part-lbl">Taux de participation</div>
+          <div class="part-val big">${pct(part.participation_pct)}</div>
+          <div class="part-sub">${fmt(part.votants)} votants sur ${fmt(part.inscrits)} inscrits</div>
+        </div>
+        <div class="part-cell">
+          <div class="part-lbl">Abstention</div>
+          <div class="part-val">${pct(part.abstention_pct)}</div>
+          <div class="part-sub">${fmt(part.abstentions)} abs.</div>
+        </div>
+        <div class="part-cell">
+          <div class="part-lbl">Exprimés</div>
+          <div class="part-val">${fmt(part.exprimes)}</div>
+          <div class="part-sub">${pct(part.exprimes / part.votants * 100)} des votes</div>
+        </div>
+        <div class="part-cell">
+          <div class="part-lbl">Blancs / Nuls</div>
+          <div class="part-val">${fmt(part.blancs_nuls)}</div>
+          <div class="part-sub">&nbsp;</div>
+        </div>
+        <div class="part-cell">
+          <div class="part-lbl">Inscrits</div>
+          <div class="part-val">${fmt(part.inscrits)}</div>
+          <div class="part-sub">&nbsp;</div>
+        </div>
+      </div>`;
+  }
+
+  // ② Candidats
+  const cands = d.candidats;
+  const colors = { CAY: 'var(--cay)', LEC: 'var(--lec)', LEM: 'var(--lem)', TIS: 'var(--tis)' };
+  const maxVoix = Math.max(...cands.map(c => c.voix || 0));
+  if (cands && cands.some(c => c.voix > 0)) {
+    document.getElementById('candidatsContent').innerHTML =
+      '<div class="cands-list">' +
+      cands.map(c => {
+        const color = colors[c.nom] || 'var(--bleu2)';
+        const barW  = maxVoix > 0 ? (c.voix / maxVoix * 100) : 0;
+        return `
+        <div class="cand-row">
+          <div class="cand-color" style="background:${color}"></div>
+          <div class="cand-info">
+            <div class="cand-name" style="color:${color}">${c.nom}</div>
+            <div class="cand-bar-track">
+              <div class="cand-bar-fill" style="width:${barW}%;background:${color}"></div>
+            </div>
+          </div>
+          <div class="cand-right">
+            <div class="cand-pct" style="color:${color}">${pct(c.pct_exprimes)}</div>
+            <div class="cand-voix">${fmt(c.voix)} voix</div>
+          </div>
+        </div>`;
+      }).join('') +
+      '</div>';
+  }
+
+  // ③ Quartiers
+  const quarts = d.quartiers;
+  if (quarts && quarts.some(q => q.votants > 0)) {
+    const rows = quarts.map((q, i) => {
+      const isTotal = q.nom === 'TOTAL';
+      return `<tr>
+        <td>${q.nom}</td>
+        <td>${fmt(q.inscrits)}</td>
+        <td>${fmt(q.votants)}</td>
+        <td>${isTotal ? '—' : pct(q.participation_pct)}</td>
+      </tr>`;
+    }).join('');
+
+    const candRows = quarts.map(q => {
+      return `<tr>
+        <td>${q.nom}</td>
+        ${d.candidats.map(c => `<td style="color:${colors[c.nom]||'inherit'}">${fmt(q['voix_' + c.nom.toLowerCase()])}</td>`).join('')}
+      </tr>`;
+    }).join('');
+
+    const candHeaders = d.candidats.map(c =>
+      `<th style="color:${colors[c.nom]||'#fff'}">${c.nom}</th>`
+    ).join('');
+
+    document.getElementById('quartiersContent').innerHTML = `
+      <table class="quartier-table">
+        <thead><tr>
+          <th>Quartier</th><th>Inscrits</th><th>Votants</th><th>Part.%</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+      <div class="q-cands">
+        <div class="q-cands-title">Voix par candidat et par quartier</div>
+        <table class="q-cands-table">
+          <thead><tr><th>Quartier</th>${candHeaders}</tr></thead>
+          <tbody>${candRows}</tbody>
+        </table>
+      </div>`;
+  }
+}
+
+// Chargement initial + rafraîchissement toutes les 30 secondes
+loadData();
+setInterval(loadData, 30000);
+</script>
+</body>
+</html>
