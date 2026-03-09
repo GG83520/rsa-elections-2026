@@ -1,57 +1,57 @@
 {
   "bv_total": 16,
-  "bv_saisis": 0,
-  "heure": "12:48",
+  "bv_saisis": 16,
+  "heure": "16:05",
   "date": "09/03/2026",
   "participation": {
-    "inscrits": 12000,
-    "votants": 0,
-    "abstentions": 12000,
+    "inscrits": 13000,
+    "votants": 5650,
+    "abstentions": 7350,
     "blancs_nuls": 0,
-    "exprimes": 0,
-    "participation_pct": 0.0,
-    "abstention_pct": 100.0
+    "exprimes": 5650,
+    "participation_pct": 43.46,
+    "abstention_pct": 56.54
   },
   "candidats": [
     {
       "nom": "CAY",
-      "voix": 0,
-      "pct_exprimes": 0
+      "voix": 160,
+      "pct_exprimes": 2.83
     },
     {
       "nom": "LEC",
-      "voix": 0,
-      "pct_exprimes": 0
+      "voix": 160,
+      "pct_exprimes": 2.83
     },
     {
       "nom": "LEM",
-      "voix": 0,
-      "pct_exprimes": 0
+      "voix": 160,
+      "pct_exprimes": 2.83
     },
     {
       "nom": "TIS",
-      "voix": 0,
-      "pct_exprimes": 0
+      "voix": 160,
+      "pct_exprimes": 2.83
     }
   ],
   "quartiers": [
     {
       "nom": "Bouverie",
-      "inscrits": 3750,
-      "votants": 0,
+      "inscrits": 3252,
+      "votants": 1600,
       "blancs_nuls": 0,
-      "participation_pct": 0.0,
-      "voix_cay": 0,
-      "voix_lec": 0,
-      "voix_lem": 0,
-      "voix_tis": 0
+      "participation_pct": 49.2,
+      "voix_cay": 160,
+      "voix_lec": 160,
+      "voix_lem": 160,
+      "voix_tis": 160
     },
     {
       "nom": "Village",
-      "inscrits": 5250,
-      "votants": 0,
+      "inscrits": 3252,
+      "votants": 900,
       "blancs_nuls": 0,
-      "participation_pct": 0.0,
+      "participation_pct": 27.68,
       "voix_cay": 0,
       "voix_lec": 0,
       "voix_lem": 0,
@@ -59,10 +59,10 @@
     },
     {
       "nom": "Ecarts",
-      "inscrits": 0,
-      "votants": 0,
+      "inscrits": 3252,
+      "votants": 700,
       "blancs_nuls": 0,
-      "participation_pct": 0,
+      "participation_pct": 21.53,
       "voix_cay": 0,
       "voix_lec": 0,
       "voix_lem": 0,
@@ -70,10 +70,10 @@
     },
     {
       "nom": "Issambres",
-      "inscrits": 3000,
-      "votants": 0,
+      "inscrits": 3252,
+      "votants": 2450,
       "blancs_nuls": 0,
-      "participation_pct": 0.0,
+      "participation_pct": 75.34,
       "voix_cay": 0,
       "voix_lec": 0,
       "voix_lem": 0,
@@ -81,14 +81,14 @@
     },
     {
       "nom": "TOTAL",
-      "inscrits": 12000,
-      "votants": 0,
+      "inscrits": 13000,
+      "votants": 5650,
       "blancs_nuls": 0,
-      "participation_pct": 0.0,
-      "voix_cay": 0,
-      "voix_lec": 0,
-      "voix_lem": 0,
-      "voix_tis": 0
+      "participation_pct": 43.46,
+      "voix_cay": 160,
+      "voix_lec": 160,
+      "voix_lem": 160,
+      "voix_tis": 160
     }
   ]
 }
