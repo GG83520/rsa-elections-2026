@@ -1,37 +1,37 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "16:53",
+  "heure": "16:59",
   "date": "09/03/2026",
   "participation": {
     "inscrits": 13000,
-    "votants": 5650,
-    "abstentions": 7350,
-    "blancs_nuls": 0,
-    "exprimes": 5650,
-    "participation_pct": 43.46,
-    "abstention_pct": 56.54
+    "votants": 6150,
+    "abstentions": 6850,
+    "blancs_nuls": 166,
+    "exprimes": 5984,
+    "participation_pct": 47.31,
+    "abstention_pct": 52.69
   },
   "candidats": [
     {
       "nom": "CAY",
-      "voix": 160,
-      "pct_exprimes": 2.83
+      "voix": 521,
+      "pct_exprimes": 8.71
     },
     {
       "nom": "LEC",
-      "voix": 160,
-      "pct_exprimes": 2.83
+      "voix": 521,
+      "pct_exprimes": 8.71
     },
     {
       "nom": "LEM",
-      "voix": 160,
-      "pct_exprimes": 2.83
+      "voix": 521,
+      "pct_exprimes": 8.71
     },
     {
       "nom": "TIS",
-      "voix": 160,
-      "pct_exprimes": 2.83
+      "voix": 521,
+      "pct_exprimes": 8.71
     }
   ],
   "quartiers": [
@@ -49,13 +49,13 @@
     {
       "nom": "Village",
       "inscrits": 5691,
-      "votants": 3250,
-      "blancs_nuls": 0,
-      "participation_pct": 57.11,
-      "voix_cay": 160,
-      "voix_lec": 160,
-      "voix_lem": 160,
-      "voix_tis": 160
+      "votants": 3750,
+      "blancs_nuls": 140,
+      "participation_pct": 65.89,
+      "voix_cay": 440,
+      "voix_lec": 440,
+      "voix_lem": 440,
+      "voix_tis": 440
     },
     {
       "nom": "Ecarts",
@@ -72,23 +72,23 @@
       "nom": "Issambres",
       "inscrits": 3252,
       "votants": 700,
-      "blancs_nuls": 0,
+      "blancs_nuls": 26,
       "participation_pct": 21.53,
-      "voix_cay": 0,
-      "voix_lec": 0,
-      "voix_lem": 0,
-      "voix_tis": 0
+      "voix_cay": 81,
+      "voix_lec": 81,
+      "voix_lem": 81,
+      "voix_tis": 81
     },
     {
       "nom": "TOTAL",
       "inscrits": 13000,
-      "votants": 5650,
-      "blancs_nuls": 0,
-      "participation_pct": 43.46,
-      "voix_cay": 160,
-      "voix_lec": 160,
-      "voix_lem": 160,
-      "voix_tis": 160
+      "votants": 6150,
+      "blancs_nuls": 166,
+      "participation_pct": 47.31,
+      "voix_cay": 521,
+      "voix_lec": 521,
+      "voix_lem": 521,
+      "voix_tis": 521
     }
   ]
 }
