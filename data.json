@@ -1,7 +1,7 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "17:17",
+  "heure": "17:21",
   "date": "09/03/2026",
   "participation": {
     "inscrits": 13000,
@@ -37,14 +37,14 @@
   "quartiers": [
     {
       "nom": "Bouverie",
-      "inscrits": 0,
-      "votants": 0,
-      "blancs_nuls": 0,
-      "participation_pct": 0,
-      "voix_cay": 0,
-      "voix_lec": 0,
-      "voix_lem": 0,
-      "voix_tis": 0
+      "inscrits": 4065,
+      "votants": 1700,
+      "blancs_nuls": 116,
+      "participation_pct": 41.82,
+      "voix_cay": 396,
+      "voix_lec": 396,
+      "voix_lem": 396,
+      "voix_tis": 396
     },
     {
       "nom": "Village",
@@ -85,10 +85,10 @@
       "votants": 6150,
       "blancs_nuls": 434,
       "participation_pct": 47.31,
-      "voix_cay": 1033,
-      "voix_lec": 1033,
-      "voix_lem": 1033,
-      "voix_tis": 1033
+      "voix_cay": 1429,
+      "voix_lec": 1429,
+      "voix_lem": 1429,
+      "voix_tis": 1429
     }
   ]
 }
