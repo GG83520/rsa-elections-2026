@@ -1,7 +1,7 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "17:21",
+  "heure": "18:34",
   "date": "09/03/2026",
   "participation": {
     "inscrits": 13000,
@@ -13,11 +13,6 @@
     "abstention_pct": 52.69
   },
   "candidats": [
-    {
-      "nom": "CAY",
-      "voix": 1429,
-      "pct_exprimes": 25.0
-    },
     {
       "nom": "LEC",
       "voix": 1429,
@@ -32,6 +27,11 @@
       "nom": "TIS",
       "voix": 1429,
       "pct_exprimes": 25.0
+    },
+    {
+      "nom": "CAY",
+      "voix": 1329,
+      "pct_exprimes": 23.25
     }
   ],
   "quartiers": [
@@ -52,7 +52,7 @@
       "votants": 3750,
       "blancs_nuls": 266,
       "participation_pct": 65.89,
-      "voix_cay": 871,
+      "voix_cay": 771,
       "voix_lec": 871,
       "voix_lem": 871,
       "voix_tis": 871
@@ -85,7 +85,7 @@
       "votants": 6150,
       "blancs_nuls": 434,
       "participation_pct": 47.31,
-      "voix_cay": 1429,
+      "voix_cay": 1329,
       "voix_lec": 1429,
       "voix_lem": 1429,
       "voix_tis": 1429
