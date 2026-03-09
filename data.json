@@ -1,7 +1,7 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "16:51",
+  "heure": "16:53",
   "date": "09/03/2026",
   "participation": {
     "inscrits": 13000,
@@ -37,32 +37,32 @@
   "quartiers": [
     {
       "nom": "Bouverie",
-      "inscrits": 3252,
-      "votants": 1600,
+      "inscrits": 0,
+      "votants": 0,
       "blancs_nuls": 0,
-      "participation_pct": 49.2,
-      "voix_cay": 160,
-      "voix_lec": 160,
-      "voix_lem": 160,
-      "voix_tis": 160
-    },
-    {
-      "nom": "Village",
-      "inscrits": 3252,
-      "votants": 900,
-      "blancs_nuls": 0,
-      "participation_pct": 27.68,
+      "participation_pct": 0,
       "voix_cay": 0,
       "voix_lec": 0,
       "voix_lem": 0,
       "voix_tis": 0
     },
     {
-      "nom": "Ecarts",
-      "inscrits": 3252,
-      "votants": 700,
+      "nom": "Village",
+      "inscrits": 5691,
+      "votants": 3250,
       "blancs_nuls": 0,
-      "participation_pct": 21.53,
+      "participation_pct": 57.11,
+      "voix_cay": 160,
+      "voix_lec": 160,
+      "voix_lem": 160,
+      "voix_tis": 160
+    },
+    {
+      "nom": "Ecarts",
+      "inscrits": 0,
+      "votants": 0,
+      "blancs_nuls": 0,
+      "participation_pct": 0,
       "voix_cay": 0,
       "voix_lec": 0,
       "voix_lem": 0,
@@ -71,9 +71,9 @@
     {
       "nom": "Issambres",
       "inscrits": 3252,
-      "votants": 2450,
+      "votants": 700,
       "blancs_nuls": 0,
-      "participation_pct": 75.34,
+      "participation_pct": 21.53,
       "voix_cay": 0,
       "voix_lec": 0,
       "voix_lem": 0,
