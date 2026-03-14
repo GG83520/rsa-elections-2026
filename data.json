@@ -1,16 +1,16 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "19:35",
-  "date": "09/03/2026",
+  "heure": "16:33",
+  "date": "14/03/2026",
   "participation": {
-    "inscrits": 13000,
+    "inscrits": 13567,
     "votants": 6150,
-    "abstentions": 6850,
+    "abstentions": 7417,
     "blancs_nuls": 0,
     "exprimes": 6150,
-    "participation_pct": 47.31,
-    "abstention_pct": 52.69
+    "participation_pct": 45.33,
+    "abstention_pct": 54.67
   },
   "candidats": [
     {
@@ -37,10 +37,10 @@
   "quartiers": [
     {
       "nom": "Bouverie",
-      "inscrits": 4065,
+      "inscrits": 4240,
       "votants": 1700,
       "blancs_nuls": 0,
-      "participation_pct": 41.82,
+      "participation_pct": 40.09,
       "voix_cay": 250,
       "voix_lec": 300,
       "voix_lem": 50,
@@ -48,10 +48,10 @@
     },
     {
       "nom": "Village",
-      "inscrits": 5691,
+      "inscrits": 5936,
       "votants": 3750,
       "blancs_nuls": 0,
-      "participation_pct": 65.89,
+      "participation_pct": 63.17,
       "voix_cay": 350,
       "voix_lec": 420,
       "voix_lem": 70,
@@ -70,10 +70,10 @@
     },
     {
       "nom": "Issambres",
-      "inscrits": 3244,
+      "inscrits": 3349,
       "votants": 700,
       "blancs_nuls": 0,
-      "participation_pct": 21.58,
+      "participation_pct": 20.9,
       "voix_cay": 200,
       "voix_lec": 240,
       "voix_lem": 40,
@@ -81,10 +81,10 @@
     },
     {
       "nom": "TOTAL",
-      "inscrits": 13000,
+      "inscrits": 13567,
       "votants": 6150,
       "blancs_nuls": 0,
-      "participation_pct": 47.31,
+      "participation_pct": 45.33,
       "voix_cay": 800,
       "voix_lec": 960,
       "voix_lem": 160,
