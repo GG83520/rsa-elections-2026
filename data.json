@@ -1,14 +1,14 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "16:41",
+  "heure": "16:42",
   "date": "14/03/2026",
   "participation": {
     "inscrits": 13735,
     "votants": 6150,
     "abstentions": 7585,
-    "blancs_nuls": 0,
-    "exprimes": 6150,
+    "blancs_nuls": 800,
+    "exprimes": 5350,
     "participation_pct": 44.78,
     "abstention_pct": 55.22
   },
@@ -16,22 +16,22 @@
     {
       "nom": "LEC",
       "voix": 960,
-      "pct_exprimes": 15.61
+      "pct_exprimes": 17.94
     },
     {
       "nom": "CAY",
       "voix": 800,
-      "pct_exprimes": 13.01
+      "pct_exprimes": 14.95
     },
     {
       "nom": "TIS",
       "voix": 480,
-      "pct_exprimes": 7.8
+      "pct_exprimes": 8.97
     },
     {
       "nom": "LEM",
       "voix": 160,
-      "pct_exprimes": 2.6
+      "pct_exprimes": 2.99
     }
   ],
   "quartiers": [
@@ -39,7 +39,7 @@
       "nom": "Bouverie",
       "inscrits": 4396,
       "votants": 1700,
-      "blancs_nuls": 0,
+      "blancs_nuls": 300,
       "participation_pct": 38.67,
       "voix_cay": 250,
       "voix_lec": 300,
@@ -50,7 +50,7 @@
       "nom": "Village",
       "inscrits": 6163,
       "votants": 3750,
-      "blancs_nuls": 0,
+      "blancs_nuls": 300,
       "participation_pct": 60.85,
       "voix_cay": 350,
       "voix_lec": 420,
@@ -72,7 +72,7 @@
       "nom": "Issambres",
       "inscrits": 3176,
       "votants": 700,
-      "blancs_nuls": 0,
+      "blancs_nuls": 200,
       "participation_pct": 22.04,
       "voix_cay": 200,
       "voix_lec": 240,
@@ -83,7 +83,7 @@
       "nom": "TOTAL",
       "inscrits": 13735,
       "votants": 6150,
-      "blancs_nuls": 0,
+      "blancs_nuls": 800,
       "participation_pct": 44.78,
       "voix_cay": 800,
       "voix_lec": 960,
