@@ -1,46 +1,46 @@
 {
   "bv_total": 16,
-  "bv_saisis": 0,
-  "heure": "12:19",
+  "bv_saisis": 14,
+  "heure": "12:25",
   "date": "15/03/2026",
   "participation": {
-    "inscrits": 13735,
-    "votants": 0,
-    "abstentions": 13735,
+    "inscrits": 13736,
+    "votants": 2561,
+    "abstentions": 11175,
     "blancs_nuls": 0,
-    "exprimes": 0,
-    "participation_pct": 0.0,
-    "abstention_pct": 100.0
+    "exprimes": 2561,
+    "participation_pct": 18.64,
+    "abstention_pct": 81.36
   },
   "candidats": [
     {
       "nom": "CAY",
       "voix": 0,
-      "pct_exprimes": 0
+      "pct_exprimes": 0.0
     },
     {
       "nom": "LEC",
       "voix": 0,
-      "pct_exprimes": 0
+      "pct_exprimes": 0.0
     },
     {
       "nom": "LEM",
       "voix": 0,
-      "pct_exprimes": 0
+      "pct_exprimes": 0.0
     },
     {
       "nom": "TIS",
       "voix": 0,
-      "pct_exprimes": 0
+      "pct_exprimes": 0.0
     }
   ],
   "quartiers": [
     {
       "nom": "Bouverie",
       "inscrits": 4397,
-      "votants": 0,
+      "votants": 554,
       "blancs_nuls": 0,
-      "participation_pct": 0.0,
+      "participation_pct": 12.6,
       "voix_cay": 0,
       "voix_lec": 0,
       "voix_lem": 0,
@@ -49,9 +49,9 @@
     {
       "nom": "Village",
       "inscrits": 6163,
-      "votants": 0,
+      "votants": 1240,
       "blancs_nuls": 0,
-      "participation_pct": 0.0,
+      "participation_pct": 20.12,
       "voix_cay": 0,
       "voix_lec": 0,
       "voix_lem": 0,
@@ -70,10 +70,10 @@
     },
     {
       "nom": "Issambres",
-      "inscrits": 2393,
-      "votants": 0,
+      "inscrits": 3176,
+      "votants": 767,
       "blancs_nuls": 0,
-      "participation_pct": 0.0,
+      "participation_pct": 24.15,
       "voix_cay": 0,
       "voix_lec": 0,
       "voix_lem": 0,
@@ -81,10 +81,10 @@
     },
     {
       "nom": "TOTAL",
-      "inscrits": 13735,
-      "votants": 0,
+      "inscrits": 13736,
+      "votants": 2561,
       "blancs_nuls": 0,
-      "participation_pct": 0.0,
+      "participation_pct": 18.64,
       "voix_cay": 0,
       "voix_lec": 0,
       "voix_lem": 0,
