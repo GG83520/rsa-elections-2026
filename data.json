@@ -1,37 +1,37 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "19:35",
+  "heure": "19:42",
   "date": "15/03/2026",
   "participation": {
     "inscrits": 13736,
     "votants": 8464,
     "abstentions": 5272,
-    "blancs_nuls": 101,
-    "exprimes": 8363,
+    "blancs_nuls": 106,
+    "exprimes": 8358,
     "participation_pct": 61.62,
     "abstention_pct": 38.38
   },
   "candidats": [
     {
       "nom": "CAY",
-      "voix": 2819,
-      "pct_exprimes": 33.71
+      "voix": 3025,
+      "pct_exprimes": 36.19
     },
     {
       "nom": "LEC",
-      "voix": 1889,
-      "pct_exprimes": 22.59
+      "voix": 2071,
+      "pct_exprimes": 24.78
     },
     {
       "nom": "TIS",
-      "voix": 1610,
-      "pct_exprimes": 19.25
+      "voix": 1634,
+      "pct_exprimes": 19.55
     },
     {
       "nom": "LEM",
-      "voix": 1008,
-      "pct_exprimes": 12.05
+      "voix": 1138,
+      "pct_exprimes": 13.62
     }
   ],
   "quartiers": [
@@ -41,8 +41,8 @@
       "votants": 2705,
       "blancs_nuls": 32,
       "participation_pct": 61.52,
-      "voix_cay": 998,
-      "voix_lec": 578,
+      "voix_cay": 1058,
+      "voix_lec": 666,
       "voix_lem": 159,
       "voix_tis": 460
     },
@@ -50,12 +50,12 @@
       "nom": "Village",
       "inscrits": 6164,
       "votants": 3743,
-      "blancs_nuls": 56,
+      "blancs_nuls": 59,
       "participation_pct": 60.72,
-      "voix_cay": 1317,
-      "voix_lec": 864,
-      "voix_lem": 410,
-      "voix_tis": 962
+      "voix_cay": 1360,
+      "voix_lec": 884,
+      "voix_lem": 420,
+      "voix_tis": 998
     },
     {
       "nom": "Ecarts",
@@ -72,23 +72,23 @@
       "nom": "Issambres",
       "inscrits": 3176,
       "votants": 2016,
-      "blancs_nuls": 13,
+      "blancs_nuls": 15,
       "participation_pct": 63.48,
-      "voix_cay": 504,
-      "voix_lec": 447,
-      "voix_lem": 439,
-      "voix_tis": 188
+      "voix_cay": 607,
+      "voix_lec": 521,
+      "voix_lem": 559,
+      "voix_tis": 176
     },
     {
       "nom": "TOTAL",
       "inscrits": 13736,
       "votants": 8464,
-      "blancs_nuls": 101,
+      "blancs_nuls": 106,
       "participation_pct": 61.62,
-      "voix_cay": 2819,
-      "voix_lec": 1889,
-      "voix_lem": 1008,
-      "voix_tis": 1610
+      "voix_cay": 3025,
+      "voix_lec": 2071,
+      "voix_lem": 1138,
+      "voix_tis": 1634
     }
   ]
 }
