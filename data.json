@@ -1,16 +1,16 @@
 {
   "bv_total": 16,
-  "bv_saisis": 15,
-  "heure": "16:44",
+  "bv_saisis": 16,
+  "heure": "16:45",
   "date": "15/03/2026",
   "participation": {
     "inscrits": 13736,
-    "votants": 2821,
-    "abstentions": 10915,
+    "votants": 3165,
+    "abstentions": 10571,
     "blancs_nuls": 0,
-    "exprimes": 2821,
-    "participation_pct": 20.54,
-    "abstention_pct": 79.46
+    "exprimes": 3165,
+    "participation_pct": 23.04,
+    "abstention_pct": 76.96
   },
   "candidats": [
     {
@@ -38,9 +38,9 @@
     {
       "nom": "Bouverie",
       "inscrits": 4397,
-      "votants": 814,
+      "votants": 1158,
       "blancs_nuls": 0,
-      "participation_pct": 18.51,
+      "participation_pct": 26.34,
       "voix_cay": 0,
       "voix_lec": 0,
       "voix_lem": 0,
@@ -82,9 +82,9 @@
     {
       "nom": "TOTAL",
       "inscrits": 13736,
-      "votants": 2821,
+      "votants": 3165,
       "blancs_nuls": 0,
-      "participation_pct": 20.54,
+      "participation_pct": 23.04,
       "voix_cay": 0,
       "voix_lec": 0,
       "voix_lem": 0,
