@@ -1,37 +1,37 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "19:13",
+  "heure": "19:20",
   "date": "15/03/2026",
   "participation": {
     "inscrits": 13736,
     "votants": 8464,
     "abstentions": 5272,
-    "blancs_nuls": 75,
-    "exprimes": 8389,
+    "blancs_nuls": 78,
+    "exprimes": 8386,
     "participation_pct": 61.62,
     "abstention_pct": 38.38
   },
   "candidats": [
     {
       "nom": "CAY",
-      "voix": 2121,
-      "pct_exprimes": 25.28
+      "voix": 2267,
+      "pct_exprimes": 27.03
     },
     {
       "nom": "LEC",
-      "voix": 1263,
-      "pct_exprimes": 15.06
+      "voix": 1362,
+      "pct_exprimes": 16.24
     },
     {
       "nom": "TIS",
-      "voix": 1161,
-      "pct_exprimes": 13.84
+      "voix": 1289,
+      "pct_exprimes": 15.37
     },
     {
       "nom": "LEM",
-      "voix": 717,
-      "pct_exprimes": 8.55
+      "voix": 755,
+      "pct_exprimes": 9.0
     }
   ],
   "quartiers": [
@@ -41,21 +41,21 @@
       "votants": 2705,
       "blancs_nuls": 27,
       "participation_pct": 61.52,
-      "voix_cay": 833,
-      "voix_lec": 369,
-      "voix_lem": 139,
-      "voix_tis": 345
+      "voix_cay": 910,
+      "voix_lec": 435,
+      "voix_lem": 154,
+      "voix_tis": 424
     },
     {
       "nom": "Village",
       "inscrits": 6164,
       "votants": 3743,
-      "blancs_nuls": 42,
+      "blancs_nuls": 45,
       "participation_pct": 60.72,
-      "voix_cay": 935,
-      "voix_lec": 580,
-      "voix_lem": 299,
-      "voix_tis": 694
+      "voix_cay": 1004,
+      "voix_lec": 613,
+      "voix_lem": 322,
+      "voix_tis": 743
     },
     {
       "nom": "Ecarts",
@@ -83,12 +83,12 @@
       "nom": "TOTAL",
       "inscrits": 13736,
       "votants": 8464,
-      "blancs_nuls": 75,
+      "blancs_nuls": 78,
       "participation_pct": 61.62,
-      "voix_cay": 2121,
-      "voix_lec": 1263,
-      "voix_lem": 717,
-      "voix_tis": 1161
+      "voix_cay": 2267,
+      "voix_lec": 1362,
+      "voix_lem": 755,
+      "voix_tis": 1289
     }
   ]
 }
