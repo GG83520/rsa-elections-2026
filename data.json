@@ -1,37 +1,37 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "19:48",
+  "heure": "20:01",
   "date": "15/03/2026",
   "participation": {
     "inscrits": 13736,
     "votants": 8464,
     "abstentions": 5272,
-    "blancs_nuls": 113,
-    "exprimes": 8351,
+    "blancs_nuls": 112,
+    "exprimes": 8352,
     "participation_pct": 61.62,
     "abstention_pct": 38.38
   },
   "candidats": [
     {
       "nom": "CAY",
-      "voix": 3178,
-      "pct_exprimes": 38.06
+      "voix": 3217,
+      "pct_exprimes": 38.52
     },
     {
       "nom": "LEC",
-      "voix": 2156,
-      "pct_exprimes": 25.82
+      "voix": 2183,
+      "pct_exprimes": 26.14
     },
     {
       "nom": "TIS",
-      "voix": 1691,
-      "pct_exprimes": 20.25
+      "voix": 1716,
+      "pct_exprimes": 20.55
     },
     {
       "nom": "LEM",
-      "voix": 1171,
-      "pct_exprimes": 14.02
+      "voix": 1180,
+      "pct_exprimes": 14.13
     }
   ],
   "quartiers": [
@@ -39,12 +39,12 @@
       "nom": "Bouverie",
       "inscrits": 4397,
       "votants": 2705,
-      "blancs_nuls": 38,
+      "blancs_nuls": 37,
       "participation_pct": 61.52,
-      "voix_cay": 1174,
-      "voix_lec": 720,
-      "voix_lem": 171,
-      "voix_tis": 507
+      "voix_cay": 1213,
+      "voix_lec": 747,
+      "voix_lem": 180,
+      "voix_tis": 532
     },
     {
       "nom": "Village",
@@ -83,12 +83,12 @@
       "nom": "TOTAL",
       "inscrits": 13736,
       "votants": 8464,
-      "blancs_nuls": 113,
+      "blancs_nuls": 112,
       "participation_pct": 61.62,
-      "voix_cay": 3178,
-      "voix_lec": 2156,
-      "voix_lem": 1171,
-      "voix_tis": 1691
+      "voix_cay": 3217,
+      "voix_lec": 2183,
+      "voix_lem": 1180,
+      "voix_tis": 1716
     }
   ]
 }
