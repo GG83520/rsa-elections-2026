@@ -1,7 +1,7 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "17:53",
+  "heure": "17:57",
   "date": "15/03/2026",
   "participation": {
     "inscrits": 13736,
@@ -14,24 +14,24 @@
   },
   "candidats": [
     {
-      "nom": "CAY",
-      "voix": 0,
-      "pct_exprimes": 0.0
-    },
-    {
-      "nom": "LEC",
-      "voix": 0,
-      "pct_exprimes": 0.0
+      "nom": "TIS",
+      "voix": 60,
+      "pct_exprimes": 0.75
     },
     {
       "nom": "LEM",
-      "voix": 0,
-      "pct_exprimes": 0.0
+      "voix": 50,
+      "pct_exprimes": 0.62
     },
     {
-      "nom": "TIS",
-      "voix": 0,
-      "pct_exprimes": 0.0
+      "nom": "LEC",
+      "voix": 40,
+      "pct_exprimes": 0.5
+    },
+    {
+      "nom": "CAY",
+      "voix": 30,
+      "pct_exprimes": 0.37
     }
   ],
   "quartiers": [
@@ -52,10 +52,10 @@
       "votants": 3537,
       "blancs_nuls": 0,
       "participation_pct": 57.39,
-      "voix_cay": 0,
-      "voix_lec": 0,
-      "voix_lem": 0,
-      "voix_tis": 0
+      "voix_cay": 30,
+      "voix_lec": 40,
+      "voix_lem": 50,
+      "voix_tis": 60
     },
     {
       "nom": "Ecarts",
@@ -85,10 +85,10 @@
       "votants": 8024,
       "blancs_nuls": 0,
       "participation_pct": 58.42,
-      "voix_cay": 0,
-      "voix_lec": 0,
-      "voix_lem": 0,
-      "voix_tis": 0
+      "voix_cay": 30,
+      "voix_lec": 40,
+      "voix_lem": 50,
+      "voix_tis": 60
     }
   ]
 }
