@@ -1,7 +1,7 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "19:46",
+  "heure": "19:47",
   "date": "15/03/2026",
   "participation": {
     "inscrits": 13736,
@@ -15,18 +15,18 @@
   "candidats": [
     {
       "nom": "CAY",
-      "voix": 3136,
-      "pct_exprimes": 37.55
+      "voix": 3178,
+      "pct_exprimes": 38.06
     },
     {
       "nom": "LEC",
-      "voix": 2137,
-      "pct_exprimes": 25.59
+      "voix": 2156,
+      "pct_exprimes": 25.82
     },
     {
       "nom": "TIS",
-      "voix": 1679,
-      "pct_exprimes": 20.11
+      "voix": 1691,
+      "pct_exprimes": 20.25
     },
     {
       "nom": "LEM",
@@ -41,10 +41,10 @@
       "votants": 2705,
       "blancs_nuls": 38,
       "participation_pct": 61.52,
-      "voix_cay": 1132,
-      "voix_lec": 701,
+      "voix_cay": 1174,
+      "voix_lec": 720,
       "voix_lem": 169,
-      "voix_tis": 495
+      "voix_tis": 507
     },
     {
       "nom": "Village",
@@ -85,10 +85,10 @@
       "votants": 8464,
       "blancs_nuls": 113,
       "participation_pct": 61.62,
-      "voix_cay": 3136,
-      "voix_lec": 2137,
+      "voix_cay": 3178,
+      "voix_lec": 2156,
       "voix_lem": 1169,
-      "voix_tis": 1679
+      "voix_tis": 1691
     }
   ]
 }
