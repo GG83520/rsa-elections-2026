@@ -1,37 +1,37 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "19:44",
+  "heure": "19:46",
   "date": "15/03/2026",
   "participation": {
     "inscrits": 13736,
     "votants": 8464,
     "abstentions": 5272,
-    "blancs_nuls": 110,
-    "exprimes": 8354,
+    "blancs_nuls": 113,
+    "exprimes": 8351,
     "participation_pct": 61.62,
     "abstention_pct": 38.38
   },
   "candidats": [
     {
       "nom": "CAY",
-      "voix": 3064,
-      "pct_exprimes": 36.68
+      "voix": 3136,
+      "pct_exprimes": 37.55
     },
     {
       "nom": "LEC",
-      "voix": 2078,
-      "pct_exprimes": 24.87
+      "voix": 2137,
+      "pct_exprimes": 25.59
     },
     {
       "nom": "TIS",
-      "voix": 1642,
-      "pct_exprimes": 19.66
+      "voix": 1679,
+      "pct_exprimes": 20.11
     },
     {
       "nom": "LEM",
-      "voix": 1140,
-      "pct_exprimes": 13.65
+      "voix": 1169,
+      "pct_exprimes": 14.0
     }
   ],
   "quartiers": [
@@ -39,12 +39,12 @@
       "nom": "Bouverie",
       "inscrits": 4397,
       "votants": 2705,
-      "blancs_nuls": 36,
+      "blancs_nuls": 38,
       "participation_pct": 61.52,
-      "voix_cay": 1097,
-      "voix_lec": 673,
-      "voix_lem": 161,
-      "voix_tis": 468
+      "voix_cay": 1132,
+      "voix_lec": 701,
+      "voix_lem": 169,
+      "voix_tis": 495
     },
     {
       "nom": "Village",
@@ -72,23 +72,23 @@
       "nom": "Issambres",
       "inscrits": 3176,
       "votants": 2016,
-      "blancs_nuls": 15,
+      "blancs_nuls": 16,
       "participation_pct": 63.48,
-      "voix_cay": 607,
-      "voix_lec": 521,
-      "voix_lem": 559,
-      "voix_tis": 176
+      "voix_cay": 644,
+      "voix_lec": 552,
+      "voix_lem": 580,
+      "voix_tis": 186
     },
     {
       "nom": "TOTAL",
       "inscrits": 13736,
       "votants": 8464,
-      "blancs_nuls": 110,
+      "blancs_nuls": 113,
       "participation_pct": 61.62,
-      "voix_cay": 3064,
-      "voix_lec": 2078,
-      "voix_lem": 1140,
-      "voix_tis": 1642
+      "voix_cay": 3136,
+      "voix_lec": 2137,
+      "voix_lem": 1169,
+      "voix_tis": 1679
     }
   ]
 }
