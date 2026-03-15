@@ -7,8 +7,8 @@
     "inscrits": 13736,
     "votants": 8464,
     "abstentions": 5272,
-    "blancs_nuls": 53,
-    "exprimes": 8411,
+    "blancs_nuls": 55,
+    "exprimes": 8409,
     "participation_pct": 61.62,
     "abstention_pct": 38.38
   },
@@ -21,12 +21,12 @@
     {
       "nom": "LEC",
       "voix": 796,
-      "pct_exprimes": 9.46
+      "pct_exprimes": 9.47
     },
     {
       "nom": "TIS",
       "voix": 616,
-      "pct_exprimes": 7.32
+      "pct_exprimes": 7.33
     },
     {
       "nom": "LEM",
@@ -39,7 +39,7 @@
       "nom": "Bouverie",
       "inscrits": 4397,
       "votants": 2705,
-      "blancs_nuls": 19,
+      "blancs_nuls": 21,
       "participation_pct": 61.52,
       "voix_cay": 429,
       "voix_lec": 282,
@@ -83,7 +83,7 @@
       "nom": "TOTAL",
       "inscrits": 13736,
       "votants": 8464,
-      "blancs_nuls": 53,
+      "blancs_nuls": 55,
       "participation_pct": 61.62,
       "voix_cay": 1117,
       "voix_lec": 796,
