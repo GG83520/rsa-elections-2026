@@ -1,7 +1,7 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "19:47",
+  "heure": "19:48",
   "date": "15/03/2026",
   "participation": {
     "inscrits": 13736,
@@ -30,8 +30,8 @@
     },
     {
       "nom": "LEM",
-      "voix": 1169,
-      "pct_exprimes": 14.0
+      "voix": 1171,
+      "pct_exprimes": 14.02
     }
   ],
   "quartiers": [
@@ -43,7 +43,7 @@
       "participation_pct": 61.52,
       "voix_cay": 1174,
       "voix_lec": 720,
-      "voix_lem": 169,
+      "voix_lem": 171,
       "voix_tis": 507
     },
     {
@@ -87,7 +87,7 @@
       "participation_pct": 61.62,
       "voix_cay": 3178,
       "voix_lec": 2156,
-      "voix_lem": 1169,
+      "voix_lem": 1171,
       "voix_tis": 1691
     }
   ]
