@@ -1,37 +1,37 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "19:20",
+  "heure": "19:21",
   "date": "15/03/2026",
   "participation": {
     "inscrits": 13736,
     "votants": 8464,
     "abstentions": 5272,
-    "blancs_nuls": 78,
-    "exprimes": 8386,
+    "blancs_nuls": 82,
+    "exprimes": 8382,
     "participation_pct": 61.62,
     "abstention_pct": 38.38
   },
   "candidats": [
     {
       "nom": "CAY",
-      "voix": 2267,
-      "pct_exprimes": 27.03
+      "voix": 2294,
+      "pct_exprimes": 27.37
     },
     {
       "nom": "LEC",
-      "voix": 1362,
-      "pct_exprimes": 16.24
+      "voix": 1385,
+      "pct_exprimes": 16.52
     },
     {
       "nom": "TIS",
-      "voix": 1289,
-      "pct_exprimes": 15.37
+      "voix": 1323,
+      "pct_exprimes": 15.78
     },
     {
       "nom": "LEM",
-      "voix": 755,
-      "pct_exprimes": 9.0
+      "voix": 768,
+      "pct_exprimes": 9.16
     }
   ],
   "quartiers": [
@@ -50,12 +50,12 @@
       "nom": "Village",
       "inscrits": 6164,
       "votants": 3743,
-      "blancs_nuls": 45,
+      "blancs_nuls": 49,
       "participation_pct": 60.72,
-      "voix_cay": 1004,
-      "voix_lec": 613,
-      "voix_lem": 322,
-      "voix_tis": 743
+      "voix_cay": 1031,
+      "voix_lec": 636,
+      "voix_lem": 335,
+      "voix_tis": 777
     },
     {
       "nom": "Ecarts",
@@ -83,12 +83,12 @@
       "nom": "TOTAL",
       "inscrits": 13736,
       "votants": 8464,
-      "blancs_nuls": 78,
+      "blancs_nuls": 82,
       "participation_pct": 61.62,
-      "voix_cay": 2267,
-      "voix_lec": 1362,
-      "voix_lem": 755,
-      "voix_tis": 1289
+      "voix_cay": 2294,
+      "voix_lec": 1385,
+      "voix_lem": 768,
+      "voix_tis": 1323
     }
   ]
 }
