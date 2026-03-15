@@ -1,37 +1,37 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "18:34",
+  "heure": "18:35",
   "date": "15/03/2026",
   "participation": {
     "inscrits": 13736,
     "votants": 1600,
     "abstentions": 12136,
-    "blancs_nuls": 5,
-    "exprimes": 1595,
+    "blancs_nuls": 6,
+    "exprimes": 1594,
     "participation_pct": 11.65,
     "abstention_pct": 88.35
   },
   "candidats": [
     {
       "nom": "CAY",
-      "voix": 119,
-      "pct_exprimes": 7.46
+      "voix": 160,
+      "pct_exprimes": 10.04
     },
     {
       "nom": "LEC",
-      "voix": 70,
-      "pct_exprimes": 4.39
+      "voix": 101,
+      "pct_exprimes": 6.34
     },
     {
       "nom": "TIS",
-      "voix": 63,
-      "pct_exprimes": 3.95
+      "voix": 82,
+      "pct_exprimes": 5.14
     },
     {
       "nom": "LEM",
-      "voix": 42,
-      "pct_exprimes": 2.63
+      "voix": 51,
+      "pct_exprimes": 3.2
     }
   ],
   "quartiers": [
@@ -41,10 +41,10 @@
       "votants": 500,
       "blancs_nuls": 3,
       "participation_pct": 11.37,
-      "voix_cay": 44,
-      "voix_lec": 27,
-      "voix_lem": 8,
-      "voix_tis": 18
+      "voix_cay": 85,
+      "voix_lec": 58,
+      "voix_lem": 17,
+      "voix_tis": 37
     },
     {
       "nom": "Village",
@@ -72,7 +72,7 @@
       "nom": "Issambres",
       "inscrits": 3176,
       "votants": 400,
-      "blancs_nuls": 0,
+      "blancs_nuls": 1,
       "participation_pct": 12.59,
       "voix_cay": 39,
       "voix_lec": 23,
@@ -83,12 +83,12 @@
       "nom": "TOTAL",
       "inscrits": 13736,
       "votants": 1600,
-      "blancs_nuls": 5,
+      "blancs_nuls": 6,
       "participation_pct": 11.65,
-      "voix_cay": 119,
-      "voix_lec": 70,
-      "voix_lem": 42,
-      "voix_tis": 63
+      "voix_cay": 160,
+      "voix_lec": 101,
+      "voix_lem": 51,
+      "voix_tis": 82
     }
   ]
 }
