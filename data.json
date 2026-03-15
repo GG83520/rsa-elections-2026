@@ -7,8 +7,8 @@
     "inscrits": 13736,
     "votants": 8464,
     "abstentions": 5272,
-    "blancs_nuls": 69,
-    "exprimes": 8395,
+    "blancs_nuls": 66,
+    "exprimes": 8398,
     "participation_pct": 61.62,
     "abstention_pct": 38.38
   },
@@ -16,7 +16,7 @@
     {
       "nom": "CAY",
       "voix": 1391,
-      "pct_exprimes": 16.57
+      "pct_exprimes": 16.56
     },
     {
       "nom": "LEC",
@@ -26,7 +26,7 @@
     {
       "nom": "TIS",
       "voix": 794,
-      "pct_exprimes": 9.46
+      "pct_exprimes": 9.45
     },
     {
       "nom": "LEM",
@@ -50,7 +50,7 @@
       "nom": "Village",
       "inscrits": 6164,
       "votants": 3743,
-      "blancs_nuls": 35,
+      "blancs_nuls": 32,
       "participation_pct": 60.72,
       "voix_cay": 607,
       "voix_lec": 395,
@@ -83,7 +83,7 @@
       "nom": "TOTAL",
       "inscrits": 13736,
       "votants": 8464,
-      "blancs_nuls": 69,
+      "blancs_nuls": 66,
       "participation_pct": 61.62,
       "voix_cay": 1391,
       "voix_lec": 896,
