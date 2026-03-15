@@ -1,7 +1,7 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "19:09",
+  "heure": "19:12",
   "date": "15/03/2026",
   "participation": {
     "inscrits": 13736,
@@ -15,23 +15,23 @@
   "candidats": [
     {
       "nom": "CAY",
-      "voix": 1934,
-      "pct_exprimes": 23.06
+      "voix": 2075,
+      "pct_exprimes": 24.74
     },
     {
       "nom": "LEC",
-      "voix": 1160,
-      "pct_exprimes": 13.83
+      "voix": 1220,
+      "pct_exprimes": 14.55
     },
     {
       "nom": "TIS",
-      "voix": 1069,
-      "pct_exprimes": 12.75
+      "voix": 1140,
+      "pct_exprimes": 13.59
     },
     {
       "nom": "LEM",
-      "voix": 646,
-      "pct_exprimes": 7.7
+      "voix": 708,
+      "pct_exprimes": 8.44
     }
   ],
   "quartiers": [
@@ -41,10 +41,10 @@
       "votants": 2705,
       "blancs_nuls": 29,
       "participation_pct": 61.52,
-      "voix_cay": 732,
-      "voix_lec": 367,
-      "voix_lem": 120,
-      "voix_tis": 297
+      "voix_cay": 787,
+      "voix_lec": 326,
+      "voix_lem": 130,
+      "voix_tis": 324
     },
     {
       "nom": "Village",
@@ -52,10 +52,10 @@
       "votants": 3743,
       "blancs_nuls": 42,
       "participation_pct": 60.72,
-      "voix_cay": 897,
-      "voix_lec": 557,
-      "voix_lem": 291,
-      "voix_tis": 664
+      "voix_cay": 935,
+      "voix_lec": 580,
+      "voix_lem": 299,
+      "voix_tis": 694
     },
     {
       "nom": "Ecarts",
@@ -74,10 +74,10 @@
       "votants": 2016,
       "blancs_nuls": 6,
       "participation_pct": 63.48,
-      "voix_cay": 305,
-      "voix_lec": 236,
-      "voix_lem": 235,
-      "voix_tis": 108
+      "voix_cay": 353,
+      "voix_lec": 314,
+      "voix_lem": 279,
+      "voix_tis": 122
     },
     {
       "nom": "TOTAL",
@@ -85,10 +85,10 @@
       "votants": 8464,
       "blancs_nuls": 77,
       "participation_pct": 61.62,
-      "voix_cay": 1934,
-      "voix_lec": 1160,
-      "voix_lem": 646,
-      "voix_tis": 1069
+      "voix_cay": 2075,
+      "voix_lec": 1220,
+      "voix_lem": 708,
+      "voix_tis": 1140
     }
   ]
 }
