@@ -1,46 +1,46 @@
 {
   "bv_total": 16,
   "bv_saisis": 16,
-  "heure": "17:57",
+  "heure": "18:01",
   "date": "15/03/2026",
   "participation": {
     "inscrits": 13736,
-    "votants": 8024,
-    "abstentions": 5712,
+    "votants": 1600,
+    "abstentions": 12136,
     "blancs_nuls": 0,
-    "exprimes": 8024,
-    "participation_pct": 58.42,
-    "abstention_pct": 41.58
+    "exprimes": 1600,
+    "participation_pct": 11.65,
+    "abstention_pct": 88.35
   },
   "candidats": [
     {
       "nom": "TIS",
       "voix": 60,
-      "pct_exprimes": 0.75
+      "pct_exprimes": 3.75
     },
     {
       "nom": "LEM",
       "voix": 50,
-      "pct_exprimes": 0.62
+      "pct_exprimes": 3.12
     },
     {
       "nom": "LEC",
       "voix": 40,
-      "pct_exprimes": 0.5
+      "pct_exprimes": 2.5
     },
     {
       "nom": "CAY",
       "voix": 30,
-      "pct_exprimes": 0.37
+      "pct_exprimes": 1.88
     }
   ],
   "quartiers": [
     {
       "nom": "Bouverie",
       "inscrits": 4397,
-      "votants": 2590,
+      "votants": 500,
       "blancs_nuls": 0,
-      "participation_pct": 58.9,
+      "participation_pct": 11.37,
       "voix_cay": 0,
       "voix_lec": 0,
       "voix_lem": 0,
@@ -49,9 +49,9 @@
     {
       "nom": "Village",
       "inscrits": 6163,
-      "votants": 3537,
+      "votants": 700,
       "blancs_nuls": 0,
-      "participation_pct": 57.39,
+      "participation_pct": 11.36,
       "voix_cay": 30,
       "voix_lec": 40,
       "voix_lem": 50,
@@ -71,9 +71,9 @@
     {
       "nom": "Issambres",
       "inscrits": 3176,
-      "votants": 1897,
+      "votants": 400,
       "blancs_nuls": 0,
-      "participation_pct": 59.73,
+      "participation_pct": 12.59,
       "voix_cay": 0,
       "voix_lec": 0,
       "voix_lem": 0,
@@ -82,9 +82,9 @@
     {
       "nom": "TOTAL",
       "inscrits": 13736,
-      "votants": 8024,
+      "votants": 1600,
       "blancs_nuls": 0,
-      "participation_pct": 58.42,
+      "participation_pct": 11.65,
       "voix_cay": 30,
       "voix_lec": 40,
       "voix_lem": 50,
